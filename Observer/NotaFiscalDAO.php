@@ -1,0 +1,9 @@
+<?php
+
+class NotaFiscalDAO implements AcoesAoGerarNota {
+
+    public function executa(NotaFiscal $nf) {
+        echo "<br> Eu mandei para o banco de dados <br>"; 
+    }
+
+}
